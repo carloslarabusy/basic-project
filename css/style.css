@@ -1,57 +1,132 @@
 body{
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    box-sizing: border-box;
+    color: black;
+    list-style: none;
+    font-size: 18px;
 }
 .menu{
+    box-sizing: border-box;
+    background-color: #006cf6;
+    border: 1px solid transparent;
+    display: flex;
+    color: white;
+    float: left;
+    flex-direction: column;
+    width: 15%;
 }
-.menu ul{
-
+.menu ul li{
+    font-size: 14px;
+    list-style-type: none;
 }
-.menu li{
-
+.menu figure{
+    display: flex;
+    align-self: center;
 }
 .menu figure img{
-    
+    display: flex;
+    max-width: 125px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
 }
 .pg-home{
-
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    width: 80%;
+    float: right;
+    background-color: white;
+    margin: 10px;
 }
 header{
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 10%;
+    display: inline-flex;
+    background-color: white;
 }
 .top{
-
+    box-sizing: border-box;
+    border: 1px solid transparent;
 }
 .top h3{
-
+    text-align: left;
+    font-size: 16px;
+    flex-wrap: wrap;
 }
 .top p{
-
+    text-align: left;
+    font-size: 14px;
 }
 .Mid{
+    box-sizing: border-box;
+    display: flex;
+    border: 1px solid transparent;
+    border-radius: 10%;
+    box-shadow: 5%;
+    align-items: center;
+    justify-content: center;
 }
 .Mid img{
-
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
 }
 .mid-Mid{
+    box-sizing: border-box;
+    border: 0px solid transparent;
+    border-radius: 5%;
+    box-shadow: 5%;
+    background-color: #fcb900;
 }
 .mid-Mid h2{
+    color: #006cf6;
+    font-size: 18px;
+    text-align: center;
+}
+#container{
+    width: 80%;
+    height: auto;
 
 }
 .FAQ{
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    box-shadow: 5%;
+    display: flex;
+    float:left;
 }
-.FAQ p{
-
+.FAQ h4{
+    text-align: center;
+    justify-self: center;
+    font-size: 16px;
+    margin-bottom: 30px;
 }
-.FAQ ul{
-
+.FAQ ul li{
+    text-align: left;
+    list-style-type: none;
+    flex-direction: row;
+    color: #006cf6;
 }
-.FAQ li{
-
+.FAQ ul li span{
+    color: blue;
 }
 .Merchan{
-
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    box-shadow: 10%;
+    float: right;
+    align-self: initial;
 }
-.Merchan h3{
-
+.Merchan h4{
+    text-align: center;
+    font-size: 16px;
 }
 .Merchan p{
-
+    text-align: center;
+    font-size: 14px;
+    border: 1px outset transparent;
 }
